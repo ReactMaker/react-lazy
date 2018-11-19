@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   module: {
@@ -80,7 +81,8 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, 'src/index.html'),
       filename: "./index.html"
-    })
+    }),
+    new BundleAnalyzerPlugin(),
   ],
   devServer: {
     compress: true,
