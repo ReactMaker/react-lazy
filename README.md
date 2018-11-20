@@ -9,10 +9,10 @@
 - Main Page Loaded
   - loaded vendors-main.js and main.js
 
-![](https://i.imgur.com/DNc8lKJ.png)
+![](https://i.imgur.com/ZE7qOsL.png)
 
 - Page1 Loaded
   - not loaded any js file
 
-![](https://i.imgur.com/pR22Tbb.png)
+![](https://i.imgur.com/TjkGZM8.png)
 
