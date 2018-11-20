@@ -1,6 +1,7 @@
 # React Lazy
 
-使用React Lazy實現動態載入Component，可以讓頁面載入速度變快
+- 進入畫面時只載入此頁所需的js檔案，而不是第一次進入畫面時將全部js檔案載入，可以讓頁面載入速度變快
+- 使用React Lazy實現動態載入Component，啟動起來觀察一下有什麼不同吧
 
 ```
 import React, { Suspense, lazy } from 'react';
