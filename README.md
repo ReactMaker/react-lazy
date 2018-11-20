@@ -7,10 +7,12 @@
 ![](https://i.imgur.com/s9zGX5a.png)
 
 - Main Page Loaded
+  - loaded vendors-main.js and main.js
 
 ![](https://i.imgur.com/DNc8lKJ.png)
 
 - Page1 Loaded
+  - not loaded any js file
 
 ![](https://i.imgur.com/pR22Tbb.png)
 
